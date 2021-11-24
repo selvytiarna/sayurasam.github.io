@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>UTS SELVY 19404133 </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://badoystudio.com/cloudme.fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+height: 100%;
+font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+background-position: left;
+background-size: cover;
+background-image: url("img/STIEI05new.jpg");
+min-height: 75%;
+}
+
+.menu {
+display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+<div class="w3-row w3-padding w3-black">
+<div class="w3-col s3">
+<a href="#" class="w3-button w3-block w3-black">BERANDA</a>
+</div>
+<div class="w3-col s3">
+<a href="#about" class="w3-button w3-block w3-black">TENTANG</a>
+</div>
+<div class="w3-col s3">
+<a href="#menu" class="w3-button w3-block w3-black">PILIHAN</a>
+</div>
+<div class="w3-col s3">
+<a href="#where" class="w3-button w3-block w3-black">DAFTAR</a>
+</div>
+</div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+<div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+<span class="w3-tag">Buka Dari Pukul 08.00 s/d 15.00 WIB </span>
+</div>
+<div class="w3-display-middle w3-center">
+
+</div>
+<div class="w3-display-bottomright w3-center w3-padding-large">
+<span class="w3-text-white">Pontianak, 28 Oktober 2021</span>
+</div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+<div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">STIEI PONTIANAK </span></h5>
+<p>Yayasan atau badan hukum penyelenggara Sekolah Tinggi llmu Ekonomi ‘Indonesia’ Pontianak merupakan Yayasan Pendidikan Indograha Manajemen yang didirikan pada tanggal 12 Maret 1992 berdasarkan Akte Notaris Sri Rohani Wahyudi, S.H No. 34 dan telah terdaftar di Pengadilan Negeri Pontianak No. 08/Y.Y.PENDAF/1992/PN.PTK serta telah mendapat pengesahan Menteri Hukum dan HAM SK No. AHU 2276.AH.01.04 tahun 2010. Berdasarkan Surat Keputusan No. 073/D/O/1998, Menteri Pendidikan dan Kebudayaan R.I.cq. Direktorat Jenderal Pendidikan Tinggi cq. Kopertis XI Depdikbud R.I., maka didirikan Sekolah Tinggi llmu Ekonomi ‘Indonesia’ Pontianak (STIE ‘Indonesia’ Pontianak) yang menyelenggarakan Pendidikan di bidang ilmu Manajemen (Program Sarjana/S1) dan Akuntansi (Program Diploma Tiga/DIII) dimana diharapkan dapat menghasilkan lulusan yang terbaik..</p>
+<p>Selalu berupaya untuk menghasilkan lulusan yang profesional yang memiliki keunggulan dan daya saing dalam Business & Commerce, yang dibangun dalam suasana Friendly Campus, dan selalu mengembangkan diri dalam masyarakat global.</p>
+<div class="w3-panel w3-leftbar w3-light-grey">
+<p><i>"STIE ‘Indonesia’ Pontianak adalah perguruan tinggi swasta yang berorientasi pada mutu. Kami selalu berusaha menghasilkan lulusan yang memiliki keunggulan dan daya saing dan siap berkembang dalam masyarakat global. Memuaskan pelanggan, yaitu mahasiswa adalah tujuan kami.</i></p>
+<p>Tentang STIEIP</p>
+</div>
+<img src="STIEI05new.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
+<p><strong>Jam Buka:</strong> Senin s/d Jum'at Pukul 08.00 s/d 15.00 WIB .</p>
+<p><strong>Alamat:</strong> Jl. Imam Bonjol No.369-370, Benua Melayu Laut, Kec. Pontianak Selatan, Kota Pontianak, Kalimantan Barat 78243</p>
+</div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+<div class="w3-content" style="max-width:700px">
+
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">PILIHAN</span></h5>
+
+<div class="w3-row w3-center w3-card w3-padding">
+<a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+<div class="w3-col s6 tablink">Beranda</div>
+</a>
+<a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+<div class="w3-col s6 tablink">Kegiatan</div>
+</a>
+</div>
+
+<div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+<h5>Pendaftaran</h5>
+<p class="w3-text-grey">Setiap hari Senin s/d Jumat pada pukul 07.30 – 17.30 WIB
+
+    dan hari Sabtu pukul 07.30 – 15.30 WIB</p><br>
+
+<h5>Contact Person :</h5>
+<p class="w3-text-grey">0561 - 761307 / 734762
+
+    085822385552 - WA (text only)</p><br>
+
+<h5>NOTE :</h5>
+<p class="w3-text-grey">SELAMA PHYSICAL DISTANCING, PENERIMAAN MAHASISWA BARU T.A 2021/2022 AKAN DIADAKAN SECARA ONLINE </p><br>
+
+<h5>Program Studi</h5>
+<p class="w3-text-grey">Program Sarjana, Program Studi Manajemen (Terakreditasi B)
+    & Program Diploma Tiga, Program Studi Akuntansi (Terakreditasi B)</p><br>
+
+
+</div>
+
+<div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+<h5>Info Daftar Ulang</h5>
+<p class="w3-text-grey">Pendaftaran Ulang Mahasiswa Baru Tahun Akademik 2020/2021 dapat dilakukan via transfer maupun langsung datang ke kampus.</p><br>
+
+<h5>Batas Waktu</h5>
+<p class="w3-text-grey">Batas Waktu Pendaftaran Ulang dapat dilakukan paling lambat hari Jumat tanggal 2 Oktober 2020.</p><br>
+
+<h5>Untuk info lebih lanjut dapat menghubungi kami di:</h5>
+<p class="w3-text-grey">Admin : 0561-734762 / 761307</p><br>
+
+</div> 
+<img src="img/Logo.jfif" style="width:20%;max-width:1000px;margin-top:32px;">
+</div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+<div class="w3-content" style="max-width:700px">
+<h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DAFTAR KAN DI SINI</span></h5>
+<p><strong>WAJIB !!</strong> ISI DATA DI BAWAH INI :</p>
+<form action="/action_page.php" target="_blank">
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nama Lengkap" required name="Nama Lengkap"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Berapa Jurusan yang di Daftar" required name="People"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Jurusan Utama" required name="Message"></p>
+<p><button class="w3-button w3-black" type="submit">KIRIM DATA</button></p>
+</form>
+</div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">SELVY 19404133</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+var i, x, tablinks;
+x = document.getElementsByClassName("menu");
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+tablinks = document.getElementsByClassName("tablink");
+for (i = 0; i < x.length; i++) {
+tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+}
+document.getElementById(menuName).style.display = "block";
+evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
